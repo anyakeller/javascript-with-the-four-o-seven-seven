@@ -1,0 +1,56 @@
+{
+  "name": "javascript-with-the-four-o-seven-seven",
+  "version": "1.0.0",
+  "description": "A JavaScript Guide Featuring the 4077th MASH Division",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "webpack --mode development && node server/server.js",
+    "test": "jest",
+    "build": "webpack --mode production"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "moduleFileExtensions": ["js"],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anyakeller/javascript-with-the-four-o-seven-seven.git"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "react",
+    "mash"
+  ],
+  "author": "Anya K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anyakeller/javascript-with-the-four-o-seven-seven/issues"
+  },
+  "homepage": "https://github.com/anyakeller/javascript-with-the-four-o-seven-seven#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.1",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "jest": "^26.4.2",
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4",
+    "sass-loader": "^9.0.3",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}

@@ -1,0 +1,20 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# secret stuff
+*.env
+
+# dependencies
+node_modules/
+
+# production
+dist/
+
+# gah!
+.DS_Store
+.env
