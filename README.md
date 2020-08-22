@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/anyakeller/javascript-with-the-four-o-seven-seven.svg?branch=master)](https://travis-ci.com/anyakeller/javascript-with-the-four-o-seven-seven)
+
 # A JavaScript Guide Featuring the 4077th MASH Division
 
 ### Imagine a world...
